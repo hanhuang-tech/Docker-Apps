@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+    expressapp:
+        image: curiousalfe/expressapp:1.0
+        container_name: expressapp
+        ports:
+            - "44981:8000"
+    nginxserver:
+        image: curiousalfe/nginxserver:1.0
+        container_name: nginxserver
+        ports:
+            - "44982:9000"
