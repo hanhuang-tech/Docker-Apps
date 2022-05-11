@@ -1,7 +1,7 @@
 ## apps that have not made it to production  
   
 ## cyclepics  
-- flask py app that renders a random cat image and displays it to index.html  
+- flask py app. randomly cycles through cat images and renders one in a stylised html element  
 - docker run as daemon container  
 - default port: 2000  
 **To use:**  
@@ -10,7 +10,7 @@ $ bash cyclepics.sh
   
 **Dockerfile**: spins up an alpine image, installs pip, cp into container requirements.txt, templates dir, app.py.  
 Docker build -t: installs flask via requirements.txt, maps port 2000, and CMD python app.py  
-**app.py**: flask py app. randomly cycles through cat images and renders them in a stylised html element  
+**app.py**: flask py app. randomly cycles through cat images and renders one in a stylised html element  
 Import: flask, render_template, random  
 **requirements.txt**: app requires a version of flask  
 **cyclepics.sh**: docker run docker image called cyclepics  
