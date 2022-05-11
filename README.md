@@ -1,4 +1,4 @@
-## apps that have not made it to production  
+## apps not currently in production  
   
 ## cyclepics  
 - flask py app. randomly cycles through cat images and renders one in a stylised html element  
