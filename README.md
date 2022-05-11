@@ -1,10 +1,10 @@
-# apps that have not made it to production  
+## apps that have not made it to production  
   
 ## cyclepics  
 - flask py app that renders a random cat image and displays it to index.html  
 - docker run as daemon container  
 - default port: 2000  
-### To use:  
+**To use:**  
 $ docker build -t cyclepics .  
 $ bash cyclepics.sh   
   
