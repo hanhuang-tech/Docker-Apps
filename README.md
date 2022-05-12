@@ -15,7 +15,7 @@ Import: flask, render_template, random
 **requirements.txt**: app requires a version of flask  
 **cyclepics.sh**: docker run docker image called cyclepics  
   
-## flaska (depreciated, poor design)  
+## flaska (depreciated, poor scalability)  
 - Spins up a simple flask app  
   
 **Dockerfile**: Spins up an ubuntu image, installs pip, installs flask and uses flask run command for app.py  
